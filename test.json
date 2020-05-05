@@ -1,0 +1,59 @@
+{
+    "Miro_In": [{
+            "Vbeln": "PE01-202004-0012",
+            "Nrefe": "91216041",
+            "Fob": "0",
+            "Flete": "0",
+            "Sguro": "0",
+            "Gstos": "0",
+            "Waers": "USD",
+            "Femis": "20200320",
+            "Fentre": "20200320"
+        },
+        {
+            "Vbeln": "PE01-202004-0012",
+            "Nrefe": "91216041",
+            "Fob": "0",
+            "Flete": "0",
+            "Sguro": "0",
+            "Gstos": "0",
+            "Waers": "USD",
+            "Femis": "20200320",
+            "Fentre": "20200320"
+        },
+        {
+            "Vbeln": "PE01-202004-0012",
+            "Nrefe": "91216052",
+            "Fob": "0",
+            "Flete": "0",
+            "Sguro": "0",
+            "Gstos": "0",
+            "Waers": "USD",
+            "Femis": "20200326",
+            "Fentre": "20200326"
+        },
+        {
+            "Vbeln": "PE01-202004-0012",
+            "Nrefe": "91216052",
+            "Fob": "0",
+            "Flete": "0",
+            "Sguro": "0",
+            "Gstos": "0",
+            "Waers": "USD",
+            "Femis": "20200326",
+            "Fentre": "20200326"
+        }
+    ],
+    "Miro_Out": [{
+        "Vbeln": "",
+        "Nrefe": "",
+        "Nfob": "",
+        "Nflete": "",
+        "Nseguro": "",
+        "Notros": "",
+        "Compen": "",
+        "Gjahr": "",
+        "Messages": "",
+        "Sproc": ""
+    }]
+}
