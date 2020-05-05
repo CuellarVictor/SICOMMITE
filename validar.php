@@ -105,7 +105,7 @@ if($f2=mysqli_fetch_assoc($sql2)){
                                $sentencia="update entradas set   id=$id, id_user='$id_user', fecha='$fecha', total='$total' where id_user='$id_user' ";
                                $resent=mysqli_query($mysqli,$sentencia);
                            }
-                           echo "<script>location.href='coordinador.php'</script>";
+                           echo "<script>location.href='coordinadores/Coordinador.php'</script>";
                            }
    if($pass==$f2['password']){
                            $_SESSION['id']=$f2['id'];
