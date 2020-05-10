@@ -45,7 +45,7 @@ if($f2=mysqli_fetch_assoc($sql2)){
                            $_SESSION['id']=$f2['id'];
                            $_SESSION['user']=$f2['user'];
                            $id_user=$_SESSION['id'];
-                           $TipoUsuario=$_SESSION['TipoUsuario'];
+                        //    $TipoUsuario=$_SESSION['TipoUsuario'];
                            $total=1;
                            $sql3=mysqli_query($mysqli,"SELECT * FROM entradas WHERE id_user='$id_user' ");
                            while ($row=mysqli_fetch_row ($sql3)){
@@ -62,7 +62,7 @@ if($f2=mysqli_fetch_assoc($sql2)){
 
                                            }
                                    echo '<script>alert("BIENVENIDO Asistente/Secretari@")</script> ';
-                                   echo "<script>location.href='jurado.php'</script>";
+                                   echo "<script>location.href='secretarias/Secretaria.php'</script>";
                            }
    if($pass==$f2['area']){
                            $_SESSION['id']=$f2['id'];

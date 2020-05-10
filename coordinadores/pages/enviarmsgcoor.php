@@ -6,10 +6,10 @@ utf8_decode(extract($_POST));
  //$fecha=date("d-m-Y H:i:s");
 	require("../../connect_db.php");
 
+	$fecha=date("Y-m-d");
 
-
-
-	mysqli_query($mysqli,"INSERT INTO comen VALUES('','$comen','$user','$programa','$fecha')");
+	
+	mysqli_query($mysqli,"INSERT INTO `committee`.`comen`(`comen`,`user`,`programa`,`fecha`) VALUES('$comen','$user','$programa','$fecha')");
 				//echo 'Se ha registrado con exito';
 				echo ' <script language="javascript">alert("Comentario registrado con éxito");</script> ';
 				echo "<script>location.href='ListadoEstudiantes.php'</script>";

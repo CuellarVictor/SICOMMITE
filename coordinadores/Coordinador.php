@@ -73,9 +73,9 @@ while($arreglo=mysqli_fetch_array($query)){
 
 
 
-    <FRAMESET class="webkit-scrollbar-thumb" COLS=20%,* border='0' >
+    <FRAMESET class="webkit-scrollbar-thumb" COLS=18%,* border='0' >
     <FRAME SRC="pages/MenuCoordinador.php" scrolling="no" >
-            <FRAMESET ROWS=10%,90% border='0' >
+            <FRAMESET ROWS=9%,91% border='0' >
             <FRAME SRC="pages/Cabecera.php" scrolling="no" >
             <FRAME SRC="pages/GenerarActa.php" name="contenido" >
             </FRAMESET>

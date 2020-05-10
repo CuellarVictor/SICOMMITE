@@ -89,6 +89,7 @@ while($arreglo=mysqli_fetch_array($query)){
       <img src="../images/unilibre-logo.png"  alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">SI-COMMITTEE </span>
+      
     </a>
 
     <!-- Sidebar -->

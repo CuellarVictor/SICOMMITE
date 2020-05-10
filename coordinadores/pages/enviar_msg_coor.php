@@ -56,17 +56,17 @@ extract($_GET);
 
                   <div class="col-6">
                         <label>De:</label>
-                        <input type="text" class="form-control" id="INombre" name="Nombre" value="<?php echo 'Comité proyectos '.$programa;?>" readonly="readonly">
+                        <input type="text" class="form-control" id="user" name="user" value="<?php echo 'Comité proyectos '.$programa;?>" readonly="readonly">
                   </div>
 
                   <div class="col-6">
-                        <label>Para: </label>
-                        <input type="email" class="form-control" id="ICorreo" name="Correo" value="<?php echo $Correo;?>" readonly="readonly">
+                        <label>Programa: </label>
+                        <input type="email" class="form-control" id="programa" name="programa" value="<?php echo $programa;?>" readonly="readonly">
                   </div>
 
                 <div class="col-12">
                         <label>Mensaje</label>
-                        <textarea required  class="form-control" rows="4" cols="50" id="IMensaje" name="Mensaje"  placeholder="Mensaje"></textarea>
+                        <textarea required  class="form-control" rows="4" cols="50" id="comen" name="comen" placeholder="Mensaje"></textarea>
                 </div>
 
                 <div class="col-12 pt-2">
